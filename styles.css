@@ -23,6 +23,17 @@ a:hover {
 
 /* Section Styles */
 
+#favorite {
+ max-width: 70%;
+ clear: both;
+}
+
+section {
+ background-color: #fff;
+ color: green;
+ padding: 100px 0;
+}
+
 .main-nav {
   width: 100%;
   background: black;
@@ -57,7 +68,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/portland.jpg') no-repeat top center ;
+  background: url('images/cool-glowing.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -66,11 +77,12 @@ header {
   line-height: 1.5;
 }
 header .profile-image {
-  margin-top: 50px;
+  margin-top: 80px;
+  padding: 40px;
   width: 150px;
   height: 150px;
-  border-radius: 50%;
-  border: 3px solid white;
+  border-radius: 10%;
+  border: 5px solid #000;
   transition: all .5s;
 }
 header .profile-image:hover {
@@ -205,3 +217,49 @@ a.social:hover {
 
 }
 
+
+
+/*PAGE: EXPERIENCE*/
+
+
+#expheading {
+    padding-top: 100px
+}
+
+.wra {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.column {
+	max-width: 100%;
+	margin: 0 auto;
+	padding: 0 0'5%;
+    display: inline;
+}
+
+ .column img {
+    width: 45%;
+    margin: 2%;
+   }
+
+
+
+/*CUSTOM CSS VARIOUS*/
+
+.selected {
+    color: green;
+}
+
+
+
+/*MEDIA QUERY*/
+
+@media screen and (max-width: 719px) {
+  
+  .column img {
+      display: block; 
+      width: 90%;
+      margin: 4% auto;
+  }
+}
